@@ -1,0 +1,133 @@
+header.Header{
+    top: -2em;
+    background: url("Images/IMG-20210213-WA0021.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 720px;
+    background-position: 20% 20%;
+    background-size: cover;
+}
+
+.Image{
+    background: url("Images/1613507297227.png");
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 60px;
+    margin-left: 90px;
+    float: left;
+}
+
+nav.Menu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-right: 60px;
+    
+    box-sizing: border-box;
+    height: 75px;
+    width: 970px;
+
+    border-radius: 10px;
+    background: white;
+    display:inline-block;
+}
+
+
+#Reserva{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background: orangered;
+    border-radius: 20px;
+}
+
+a.Menu{
+    text-decoration: none;
+    color: grey;
+    padding-right: 8px;
+}
+
+menu.Menu{
+    float: right;
+    margin-top: 30px;
+}
+
+div.Information{
+    background: white;
+    width: 215px;
+    height: 387px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 225px;
+    text-align: center;
+}
+p.Information{
+    padding-top: 1px;
+}
+
+#Sticker{
+    background: url("Images/1613507168204.png");
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 65px;
+}
+
+div.Line{
+    border-top: 1px grey solid;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.Line{
+    text-align: center;
+}
+
+#Reservar{
+    color: white;
+    text-decoration: none;
+    background: orangered;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+}
+
+p.Line{
+    padding-top: 1px;
+}
+
+a.Line{
+    text-decoration: none;
+    color: grey;
+    border: 1px grey solid;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+
+div.Booking{
+    border: 1px green solid;
+    width: 95px;
+    position: absolute;
+    margin-left: 5px;
+}
+div.TripAdvisor{
+    border: 1px blue solid;
+    width: 95px;
+    float: right;
+    margin-right: 5px;
+    
+}
